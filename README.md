@@ -5,7 +5,7 @@ Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and pred
 
 ### HTML Preloaded Attributues
 
-    - HTML Boilerplaye
+    - HTML Boilerplate
     - Mobile Viewport Support
     - [FontAwesome CDN] (http://fortawesome.github.io/Font-Awesome/)
     - jQuery CDN
