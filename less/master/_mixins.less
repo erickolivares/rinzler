@@ -4,6 +4,12 @@
   -ms-animation:     @name @duration @delay @ease;
 }
 
+.appearance(@value){
+  -moz-appearance: (@value);
+  -webkit-appearance: (@value);
+  appearance: (@value);
+}
+
 .box-shadow (@string) {
   -webkit-box-shadow: @string;
   -moz-box-shadow:    @string;
