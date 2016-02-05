@@ -24,4 +24,6 @@ Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and pred
 ### Clone Locally
 
     HTTPS:  git clone https://github.com/erickolivares/rinzler.git
-    SSH:    git clone https://github.com/erickolivares/rinzler.git
+    SSH:    git clone git@github.com:erickolivares/rinzler.git
+
+
