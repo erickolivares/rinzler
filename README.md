@@ -8,12 +8,18 @@ Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and pred
     - HTML Boilerplate
     - Mobile Viewport Support
 
+### Gulp 
+
+    - SCSS Compiler
+    - Creates Sourcemaps
+    - Minified CSS
+    - Watcher
+
 ### SASS 
 
     - Eric Meyer Reset
     - Variables
     - Mixins
-    - Typography
 
 ### Clone Locally
 
