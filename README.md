@@ -1,7 +1,7 @@
 Rinzler
 ========================
 
-Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and predefines CSS styles with LESS.
+Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and predefines CSS styles with SASS.
 
 ### HTML Preloaded Attributues
 
