@@ -1,8 +1,13 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, sub, sup, tt, var,
+small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -40,22 +45,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-button {
-	cursor: pointer;
-	outline: none;
-	background: transparent;
-	background: none;
-	border: 0;
-	margin: 0;
-	padding: 0;
-}
-input {
-  outline: none;
-}
-a{
-  text-decoration: none;
-}
-section {
-  width: 100%;
 }

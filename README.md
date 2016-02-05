@@ -7,27 +7,20 @@ Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and pred
 
     - HTML Boilerplate
     - Mobile Viewport Support
-    - [FontAwesome CDN] (http://fortawesome.github.io/Font-Awesome/)
-    - jQuery CDN
 
 ### Predefined CSS / LESS Attributues
 
-    - Robust reset styles
-    - Responsive headers (H1-H6)
-    - Responsive breakpoints desktop/tablet/mobile
-    - [Expansive LESS Mixin Library] (https://css-tricks.com/snippets/css/useful-css3-less-mixins/)
+    
+    
+    - [Expansive SASS Mixin Library] (https://github.com/matthieua/sass-css3-mixins/blob/master/css3-mixins.scss)
 
-### jQuery Features
 
-    - Mobile animated nav
-    - Accordion
+### SASS 
 
-### LESS Configuration
-
-    * [Install LESS](https://github.com/less/less.js)
-
-        npm install less
-
+    - Eric Meyer Reset
+    - Variables
+    - Mixins
+    - Typography
 
 ### Clone Locally
 

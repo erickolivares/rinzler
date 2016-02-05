@@ -1,0 +1,22 @@
+//Break Points
+$grid: 1400px;
+$break: 1024px;
+$tablet: 768px;
+$handheld: 600px;
+$mobile: 400px;
+$iphone5: 320px;
+
+//Fonts
+$display-font: 'Helvetica','Arial',sans-serif; 
+$display-font: "Times New Roman", Times, serif;
+
+//Colors
+$primary-color:blue;
+$secondary-color:red;
+
+//Animation 
+$duration:100ms;
+
+body {
+	border: 4px solid $secondary-color;
+}
