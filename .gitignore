@@ -27,3 +27,7 @@ Thumbs.db
 wp-config.php
 .htaccess
 www/wp-content/uploads
+
+# Gulp #
+#####################
+node_modules

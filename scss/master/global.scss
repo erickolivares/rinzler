@@ -1,0 +1,23 @@
+::-moz-selection { 
+	background: $primary-color; 
+	color:$secondary-color;
+}
+::selection { 
+	background: $primary-color; 
+	color:$secondary-color;
+}
+
+.wrapper {
+	width:$break;
+	margin:0 auto;
+	position:relative;
+	@media screen and (max-width:$break+40) {
+		width:90%;
+		padding:0 5%;
+	}
+}
+
+section{
+	clear:both;
+	width:100%;
+}
