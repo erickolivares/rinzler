@@ -14,7 +14,9 @@ Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and pred
 
     - SCSS Compiler
     - Creates Sourcemaps
+    - Minified index.html
     - Minified CSS
+    - Minified JS
     - Watcher
 
 ### SASS 
@@ -22,6 +24,7 @@ Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and pred
     - Eric Meyer Reset
     - Variables
     - Mixins
+    - Custom Grid
 
 ### Clone Locally
 
