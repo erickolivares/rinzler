@@ -10,7 +10,7 @@ Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and pred
 
 ### Gulp 
 
-    Install Gulp `npm install --save-dev`
+    Install Gulp `npm --dev install`
 
     - SCSS Compiler
     - Creates Sourcemaps
