@@ -1,18 +1,24 @@
 ///Break Points
 $grid: 1400px;
+$wide: 1200px;
 $break: 1024px;
 $tablet: 768px;
+$min-tablet:767px;
 $handheld: 600px;
 $mobile: 400px;
 $iphone5: 320px;
 
 ///Fonts
-$primart-font: 'Helvetica','Arial',sans-serif; 
-$secondary-font: "Times New Roman", Times, serif;
+$primary-font: 'Titillium Web', sans-serif;
+$secondary-font: 'Fira Sans', sans-serif;
 
 ///Colors
-$primary-color:blue;
-$secondary-color:red;
+$primary-color:#D1E751; //green
+$accent1:#4DBCE9; //lightblue
+$accent2:#0C1C56; //blue
+$accent3:darken(#D1E751,40%); //green
+//http://www.colourlovers.com/palette/1636915/Tech_city_dream
 
 ///Animation 
-$duration:200ms;
+$duration:500ms;
+$duration-long:1000ms;

@@ -1,0 +1,16 @@
+.wrapper {
+	width:$break;
+	margin:0 auto;
+	position:relative;
+	@media screen and (max-width:$break + 60) {
+		width: 90%;
+		margin:0 5%;
+	}
+}
+article.wrapper{
+	width: 700px;
+	@media screen and (max-width:750px) {
+		width: 90%;
+		margin:0 5%;
+	}
+}

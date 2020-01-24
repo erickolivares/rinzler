@@ -1,0 +1,22 @@
+em {
+  font-style: italic;
+}
+
+strong {
+	font-weight:600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family:$primary-font;
+}
+
+p,
+li,
+.btn{
+	font-family: $secondary-font;
+}

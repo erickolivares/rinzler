@@ -1,90 +1,176 @@
-.col-25-gutter {
-    @media screen and (min-width:$break) {
-        margin-top: 20px;
-        width: 23.5%;
-        margin-left: 2%;
-        @include box-sizing(border-box);
-        &:nth-of-type(-n + 4) {
-            margin-top: 0;
-        }
-        &:nth-of-type(4n + 1) {
-            margin-left: 0;
-            clear: left;
-        }
+.col-20 {
+  @media screen and (min-width:$break) {
+    width: 19.6%;
+    margin-left: .5%;
+    &:nth-of-type(5n + 1) {
+      clear: left;
+      margin-left: 0;
+    }
   }
-  @media screen and (max-width: $break){
-        margin-top: 30px;
-        width: 48.5%;
-        margin-left: 2%;
-        &:first-of-type {
-            margin-left: 0;
-        }
-        &:nth-of-type(2n+1) {
-            clear: left;
-            margin-left: 0;
-        }
+  @media screen and (max-width: $break) and (min-width: $handheld) {
+    width: 33%;
+    margin-left: .3%;
+    &:nth-of-type(3n + 1) {
+      clear: left;
+      margin-left: 0;
     }
-    @media screen and (max-width: $handheld){
-        margin-top: 30px;
-        width: 100%;
-        clear: left;
-        margin-left: 0;
-        &:first-of-type {
-            margin-top: 0;
-        }
+  }
+  @media screen and (max-width: $handheld){
+    width: 49.5%;
+    margin-left: 1%;
+    &:nth-of-type(2n+1) {
+      clear: left;
+      margin-left: 0;
     }
+  }
+  @media screen and (max-width: $iphone5){
+    width: 100%;
+    margin-left:0;
+    margin-bottom:5px;
+  }
+}
+
+.col-20-gutter {
+  @media screen and (min-width:$break) {
+    width: 18%;
+    margin-left: 2%;
+    &:nth-of-type(5n + 1) {
+      clear: left;
+      margin-left: 0;
+    }
+  }
+  @media screen and (max-width: $break) and (min-width: $handheld) {
+    width: 32%;
+    margin-left: 2%;
+    margin-bottom: 30px;
+    &:nth-of-type(3n + 1) {
+      clear: left;
+      margin-left: 0;
+    }
+  }
+  @media screen and (max-width: $handheld){
+    width: 48%;
+    margin-left: 2%;
+    margin-bottom: 30px;
+    &:nth-of-type(2n+1) {
+      clear: left;
+      margin-left: 0;
+    }
+  }
+  @media screen and (max-width: $mobile){
+    width: 100%;
+    margin-left:0;
+    margin-bottom:25px;
+  }
 }
 
 .col-25 {
-    @media screen and (min-width:$break) {
-        width: 25%;
-        @include box-sizing(border-box);
+  @media screen and (min-width:$break) {
+    width: 24%;
+    margin-left: .5%;
+    &:nth-of-type(4n + 1) {
+      clear: left;
+      margin-left: 0;
     }
-    @media screen and (max-width: $break){
-        width: 50%;
+  }
+  @media screen and (max-width: $break) and (min-width: $handheld) {
+    width: 33%;
+    margin-left: .3%;
+    &:nth-of-type(3n + 1) {
+      clear: left;
+      margin-left: 0;
     }
-    @media screen and (max-width: $handheld){
-        width: 100%;
+  }
+  @media screen and (max-width: $handheld){
+    width: 49.5%;
+    margin-left: 1%;
+    &:nth-of-type(2n+1) {
+      clear: left;
+      margin-left: 0;
     }
+  }
+  @media screen and (max-width: $iphone5){
+    width: 100%;
+    margin-left:0;
+    margin-bottom:5px;
+  }
 }
 
-.col-33-gutter {
-    margin-top: 30px;
-    width: 31%;
+.col-25-gutter {
+  @media screen and (min-width:$break) {
+    margin-top: 20px;
+    width: 24%;
     @include box-sizing(border-box);
-    margin-left: 3.5%;
-    &:nth-of-type(-n + 3) {
-        margin-top: 0;
+    margin-left: 1.333%;
+    &:nth-of-type(-n + 4) {
+      margin-top: 0;
     }
-    &:nth-of-type(3n + 1) {
-        margin-left: 0;
+    &:nth-of-type(4n + 1) {
+      margin-left: 0;
     }
+  }
+  @media screen and (max-width: $break){
+    margin-top: 30px;
+    width: 48.5%;
+    margin-left: 2%;
+    &:first-of-type {
+      margin-left: 0;
+    }
+    &:nth-of-type(2n+1) {
+      clear: left;
+      margin-left: 0;
+    }
+  }
+  @media screen and (max-width: $handheld){
+    margin-top: 30px;
+    width: 100%;
+    clear: left;
+    margin-left: 0;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
 }
 
 .col-33 {
-    @media screen and (min-width:$handheld) {
-        width: 33%;
-        margin-left: .5%;
-        &:nth-of-type(3n + 1) {
-            clear: left;
-            margin-left: 0;
-        }
+  @media screen and (min-width:$handheld) {
+    width: 33%;
+    margin-left: .5%;
+    &:nth-of-type(3n + 1) {
+      clear: left;
+      margin-left: 0;
     }
-    @media screen and (min-width: $iphone5) and (max-width: $handheld) {
-        width: 49.5%;
-        margin-left: 1%;
-        &:nth-of-type(2n+1) {
-            clear: left;
-            margin-left: 0;
-        }
-    }
-    @media screen and (max-width: $iphone5){
-        width: 100%;
-        margin-left:0;
-        margin-bottom:5px;
-    }
+  }
+  @media screen and (max-width: $handheld) {
+    width: 100%;
+    margin-left:0;
+    margin-bottom:5px;
+  }
 }
 
+
+.col-33-gutter {
+  @media screen and (min-width:$break) {
+    margin-top: 60px;
+    width: 25%;
+    @include box-sizing(border-box);
+    margin-left: 12%;
+    &:nth-of-type(-n + 3) {
+      margin-top: 0;
+    }
+    &:nth-of-type(3n + 1) {
+      margin-left: 0;
+    }
+  }
+  @media screen and (max-width: $break){
+    margin-top: 30px;
+    width: 100%;
+    clear: left;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+}
 
 .col-50 {
     width: 50%;
@@ -95,31 +181,27 @@
 }
 
 .col-50-gutter {
-    width: 49.4%;
-    margin-left: 1.1%;
+    width: 49%;
+    margin-left: 2%;
     @include box-sizing(border-box);
     &:first-of-type {
-        margin-left: 0;
+      margin-left: 0;
     }
     &:nth-of-type(2n+1) {
-        clear: left;
-        margin-left: 0;
+      clear: left;
+      margin-left: 0;
     }
     @media screen and (max-width: $tablet) {
         width: 100%;
-        margin-left:0;
+        margin-left: 0;
     }
 }
 
-.col-66 {
-    width: 66.6666%;
-    @media screen and (max-width: $handheld){
-        width: 100%;
-        padding-top:30px;
-    }
+.col-66{
+    width: 66%;
 }
 
 [class*="col-"] {
-  float: left;
-  display: inline-block
+	float: left;
+	display: inline-block
 }

@@ -1,23 +1,30 @@
-::-moz-selection { 
-	background: $primary-color; 
-	color:$secondary-color;
-}
-::selection { 
-	background: $primary-color; 
-	color:$secondary-color;
+body{
+	-webkit-font-smoothing: antialiased;
+	@include box-sizing(border-box);
 }
 
-.wrapper {
-	width:$break;
-	margin:0 auto;
-	position:relative;
-	@media screen and (max-width:$break+40) {
-		width:90%;
-		padding:0 5%;
-	}
+a {
+	text-decoration:none;
 }
 
+header,
+footer,
 section{
-	clear:both;
-	width:100%;
+	clear: left;
+    width: 100%;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background: $accent2;
+}
+::selection {
+    color: #ffffff;
+    background: $accent2;
+}
+
+section {
+	text-align:center;
+	background-size:cover;
+	background-position:top center;
 }

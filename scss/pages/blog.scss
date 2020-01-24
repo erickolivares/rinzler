@@ -1,0 +1,70 @@
+/** 
+**
+** Blog 
+**
+** Single and Blog Posts
+**
+**/
+
+.blog-posts{
+	position:relative;
+	.divider{
+		margin-bottom: 0;
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	.title {
+		border:none;
+		display: inline-block;
+		h1{
+			color:$primary-color;
+		}
+		&:hover h1 {
+			color:$accent2;
+		}
+	}
+	.featuered{
+		border:none;
+		margin:0 0 30px;
+		display: block;
+	} 
+	.date{
+		padding-bottom: 25px;
+		font-size: 18px;
+		a {
+			border:none;
+			font-weight: 700;
+		}		
+	}
+	.read-more{
+		border:none;
+		font-weight: 700;
+	}
+	.category{
+		a {
+			border:none;
+			font-weight: 700;
+		}
+	}
+	.nav-posts{
+		padding:10px 0;
+		border-top:1px solid rgb(241, 240, 240);
+		border-bottom:1px solid rgb(241, 240, 240);
+		p {
+			padding-bottom:8px;
+			font-size: 14px;
+		}
+		a {
+			display: inline-block;
+			border:none;
+			p {
+				color:$accent2;
+				font-weight: 700;
+			}			
+		}
+		& +.nav-posts{
+			border-top:none;
+		}
+	}
+}

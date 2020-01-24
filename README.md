@@ -1,5 +1,4 @@
 Rinzler
-========================
 
 Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and predefines CSS styles with SASS.
 
@@ -10,13 +9,11 @@ Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and pred
 
 ### Gulp 
 
-    Install Gulp `npm install --save-dev`
+    Install Gulp `npm install`
 
     - SCSS Compiler
     - Creates Sourcemaps
-    - Minified index.html
     - Minified CSS
-    - Minified JS
     - Watcher
 
 ### SASS 
@@ -31,4 +28,11 @@ Rinzler facilitates your front-end cut ups, sets up a HTML boilerplate, and pred
     HTTPS:  git clone https://github.com/erickolivares/rinzler.git
     SSH:    git clone git@github.com:erickolivares/rinzler.git
 
+#Author
+
+Erick Olivares
+
+www.erick-olivares.com
+
+Front End Developer 
 
