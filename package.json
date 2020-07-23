@@ -1,10 +1,10 @@
 {
-  "name": "rinzler",
+  "name": "virtual-speaker",
   "version": "0.1.0",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.2.0",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-livereload": "^3.8.1"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-livereload": "^4.0.2"
   }
 }

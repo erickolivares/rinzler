@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
-  livereload = require('gulp-livereload');
+    livereload = require('gulp-livereload');
 
 var input = './scss/style.scss',
     output = './css/';
@@ -24,9 +24,9 @@ gulp.task('production', function () {
 gulp.task('watch', function() {
   livereload.listen();
   return gulp
-    .watch('./scss/**/*.scss', ['sass'])
+    .watch("./scss/**/*.scss", gulp.parallel(["sass"]))
     .on('change', function(event) {
-    });
+  });
 });
 
-gulp.task('run', ['watch', 'sass']);
+gulp.task("run", gulp.series(['watch', 'sass'], function () { }))
