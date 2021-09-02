@@ -31,3 +31,4 @@ www/wp-content/uploads
 # Gulp #
 #####################
 node_modules
+/node_modules
